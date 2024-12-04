@@ -163,10 +163,10 @@ if (isset($_GET['id'])) {
 
         <!-- Main Footer -->
         <footer class="main-footer">
-            <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+            <strong> &copy; <?php echo date('Y');?> Feltech.com</a> -</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
-            <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+            <b>Developed By</b> <a href="https://nick-professional-profile.netlify.app/">NickDevops</a>
             </div>
         </footer>
     </div>
