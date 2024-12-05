@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $response['message'] = 'Error: ' . $conn->error;
     }
 }
-// Visit codeastro.com for more projects
+// Visit NickDevops.com for more projects
 ?>
 
 
@@ -92,7 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <?php echo $response['message']; ?>
                             </div>
                         <?php endif; ?>
-                        <!-- Visit codeastro.com for more projects -->
+                        <!-- Visit NickDevops.com for more projects -->
                         <!-- general form elements -->
                         <div class="card card-primary">
                             <div class="card-header">
@@ -148,7 +148,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                    placeholder="Enter country" required>
                                         </div>
                                     </div>
-                                    <!-- Visit codeastro.com for more projects -->
+                                    <!-- Visit NickDevops.com for more projects -->
 
                                     <div class="row mt-3">
                                         <div class="col-sm-6">
@@ -211,7 +211,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 </div>
                 <!-- /.row -->
-                <!-- Visit codeastro.com for more projects -->
+                <!-- Visit NickDevops.com for more projects -->
 
             </div><!--/. container-fluid -->
         </section>
@@ -224,13 +224,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <!-- Control sidebar content goes here -->
     </aside>
     <!-- /.control-sidebar -->
-    <!-- Visit codeastro.com for more projects -->
+    <!-- Visit NickDevops.com for more projects -->
     <!-- Main Footer -->
     <footer class="main-footer">
-        <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+        <strong> &copy; <?php echo date('Y');?> NickDevops.com</a> -</strong>
         All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
-        <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+        <b>Developed By</b> <a href="https://NickDevops.com/">NickDevops</a>
         </div>
     </footer>
 </div>

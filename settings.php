@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['updateSettings'])) {
     } else {
         $updateSettingsQuery = "UPDATE settings SET system_name = '$systemName', currency = '$currency' WHERE id = 1";
         $updateSettingsResult = $conn->query($updateSettingsQuery);
-        // Visit codeastro.com for more projects
+        // Visit NickDevops.com for more projects
         if ($updateSettingsResult) {
             $successMessage = 'System settings updated successfully.';
         } else {
@@ -172,11 +172,11 @@ if ($fetchSettingsResult->num_rows > 0) {
     <aside class="control-sidebar control-sidebar-dark">
     </aside>
 
-    <footer class="main-footer">
-    <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+  <footer class="main-footer">
+    <strong> &copy; <?php echo date('Y');?> </a> -</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+      <b>Developed By</b> <a href="">Nicholas Muinde</a>
     </div>
   </footer>
 </div>
@@ -185,5 +185,5 @@ if ($fetchSettingsResult->num_rows > 0) {
 
 
 </body>
-<!-- Visit codeastro.com for more projects -->
+<!-- Visit NickDevops.com for more projects -->
 </html>

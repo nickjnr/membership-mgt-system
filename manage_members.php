@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="card-header">
         <h3 class="card-title">Members DataTable</h3>
     </div>
-    <!-- Visit codeastro.com for more projects -->
+    <!-- Visit NickDevops.com for more projects -->
     <!-- /.card-header -->
     <div class="card-body">
     <table id="example1" class="table table-bordered table-striped">
@@ -129,7 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <!-- Visit codeastro.com for more projects -->
+  <!-- Visit NickDevops.com for more projects -->
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
@@ -137,11 +137,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <!-- /.control-sidebar -->
 
   <!-- Main Footer -->
-  <footer class="main-footer">
-    <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+<footer class="main-footer">
+    <strong> &copy; <?php echo date('Y');?> </a> -</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+      <b>Developed By</b> <a href="">Nicholas Muinde</a>
     </div>
   </footer>
 </div>

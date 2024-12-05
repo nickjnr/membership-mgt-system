@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <!-- Info boxes -->
         <div class="row">
         
-        <!-- left column --><!-- Visit codeastro.com for more projects -->
+        <!-- left column --><!-- Visit NickDevops.com for more projects -->
         <div class="col-md-12">
 
         <?php if ($response['success']): ?>
@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         </div>
         <!-- /.row -->
-        <!-- Visit codeastro.com for more projects -->
+        <!-- Visit NickDevops.com for more projects -->
         
       </div><!--/. container-fluid -->
     </section>
@@ -111,10 +111,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+    <strong> &copy; <?php echo date('Y');?> </a> -</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+      <b>Developed By</b> <a href="">Nicholas Muinde</a>
     </div>
   </footer>
 </div>

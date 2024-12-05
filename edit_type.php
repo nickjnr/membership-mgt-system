@@ -81,7 +81,7 @@ $editData = $result->fetch_assoc();
                       <label for="membershipAmount">Amount</label>
                       <input type="number" class="form-control" id="membershipAmount" name="membershipAmount" placeholder="Enter membership type amount" value="<?php echo $editData['amount']; ?>" required>
                     </div>
-                  </div><!-- Visit codeastro.com for more projects -->
+                  </div><!-- Visit NickDevops.com for more projects -->
                 </div>
 
                 <div class="card-footer">
@@ -103,11 +103,11 @@ $editData = $result->fetch_assoc();
   <!-- /.control-sidebar -->
 
   <!-- Main Footer -->
-  <footer class="main-footer">
-    <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+<footer class="main-footer">
+    <strong> &copy; <?php echo date('Y');?> </a> -</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+      <b>Developed By</b> <a href="">Nicholas Muinde</a>
     </div>
   </footer>
 </div>

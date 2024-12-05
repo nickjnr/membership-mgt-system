@@ -1,8 +1,8 @@
-**Log on to codeastro.com for more projects!***
+**Log on to NickDevops.com for more projects!***
 
 **Database Name: membershiphp**
 
-**Developed by CodeAstro**
+**Developed by NickDevops**
 
 **Recommended PHP Version 7**
 

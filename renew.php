@@ -88,7 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <h3 class="card-title"><i class="fas fa-keyboard"></i> Renew Membership Form</h3>
                             </div>
                             <!-- /.card-header -->
-                            <!-- Visit codeastro.com for more projects -->
+                            <!-- Visit NickDevops.com for more projects -->
                             <!-- form start -->
                             <form method="post" action="">
                             <input type="hidden" name="member_id" value="<?php echo $id; ?>">
@@ -186,7 +186,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- /.content-wrapper -->
 
     <!-- Control Sidebar -->
-    <!-- Visit codeastro.com for more projects -->
+    <!-- Visit NickDevops.com for more projects -->
     <aside class="control-sidebar control-sidebar-dark">
         <!-- Control sidebar content goes here -->
     </aside>
@@ -194,10 +194,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <!-- Main Footer -->
     <footer class="main-footer">
-        <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+        <strong> &copy; <?php echo date('Y');?> NickDevops.com</a> -</strong>
         All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
-        <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+        <b>Developed By</b> <a href="https://NickDevops.com/">NickDevops</a>
         </div>
     </footer>
 </div>

@@ -98,7 +98,7 @@ function getTotalRevenueWithCurrency()
 
 function getNewMembersCount() {
   global $conn;
-  // Visit codeastro.com for more projects
+  // Visit NickDevops.com for more projects
   $twentyFourHoursAgo = time() - (24 * 60 * 60);
 
   $newMembersQuery = "SELECT COUNT(*) AS newMembersCount FROM members WHERE created_at >= FROM_UNIXTIME($twentyFourHoursAgo)";
@@ -147,7 +147,7 @@ if ($fetchLogoResult->num_rows > 0) {
 } else {
     $logoPath = 'dist/img/default-logo.png';
 }
-// Visit codeastro.com for more projects
+// Visit NickDevops.com for more projects
 ?>
 
 <?php include('includes/header.php');?>
@@ -228,7 +228,7 @@ if ($fetchLogoResult->num_rows > 0) {
           <!-- /.col -->
         </div>
         <!-- /.row -->
-        <!-- Visit codeastro.com for more projects -->
+        <!-- Visit NickDevops.com for more projects -->
         <div class="row">
         <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
@@ -285,7 +285,7 @@ if ($fetchLogoResult->num_rows > 0) {
             </button>
         </div>
     </div>
-    <!-- Visit codeastro.com for more projects -->
+    <!-- Visit NickDevops.com for more projects -->
     <!-- /.card-header -->
     <div class="card-body p-0">
         <ul class="products-list product-list-in-card pl-2 pr-2">
@@ -355,11 +355,11 @@ function getMembershipTypeName($membershipTypeId)
   <!-- /.control-sidebar -->
 
   <!-- Main Footer -->
-  <footer class="main-footer">
-    <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+<footer class="main-footer">
+    <strong> &copy; <?php echo date('Y');?> </a> -</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+      <b>Developed By</b> <a href="">Nicholas Muinde</a>
     </div>
   </footer>
 </div>

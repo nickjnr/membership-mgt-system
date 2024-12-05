@@ -29,7 +29,7 @@ if (!isset($_SESSION['user_id'])) {
     <section class="content">
       <div class="container-fluid">
         <!-- Info boxes -->
-        <!-- Visit codeastro.com for more projects -->
+        <!-- Visit NickDevops.com for more projects -->
         <div class="row">
         
         <div class="col-12">
@@ -112,7 +112,7 @@ if (!isset($_SESSION['user_id'])) {
 
     <!-- /.card-body -->
 </div>
-<!-- Visit codeastro.com for more projects -->
+<!-- Visit NickDevops.com for more projects -->
             <!-- /.card -->
           </div>
           <!-- /.col -->
@@ -134,11 +134,11 @@ if (!isset($_SESSION['user_id'])) {
   <!-- /.control-sidebar -->
 
   <!-- Main Footer -->
-  <footer class="main-footer">
-    <strong> &copy; <?php echo date('Y');?> codeastro.com</a> -</strong>
+<footer class="main-footer">
+    <strong> &copy; <?php echo date('Y');?> </a> -</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Developed By</b> <a href="https://codeastro.com/">CodeAstro</a>
+      <b>Developed By</b> <a href="">Nicholas Muinde</a>
     </div>
   </footer>
 </div>

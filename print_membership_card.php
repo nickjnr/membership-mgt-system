@@ -20,7 +20,7 @@ if ($result->num_rows > 0) {
     header("Location: members_list.php");
     exit();
 }
-// Visit codeastro.com for more projects
+// Visit NickDevops.com for more projects
 $fetchSettingsQuery = "SELECT system_name FROM settings WHERE id = 1";
 $fetchSettingsResult = $conn->query($fetchSettingsQuery);
 
@@ -28,7 +28,7 @@ if ($fetchSettingsResult->num_rows > 0) {
     $settings = $fetchSettingsResult->fetch_assoc();
     $systemName = $settings['system_name'];
 } else {
-    $systemName = 'codeastro.com';
+    $systemName = 'NickDevops.com';
 }
 ?>
 
@@ -183,5 +183,5 @@ if ($fetchSettingsResult->num_rows > 0) {
         }
     </script>
 </body>
-<!-- Visit codeastro.com for more projects -->
+<!-- Visit NickDevops.com for more projects -->
 </html>
