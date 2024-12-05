@@ -10,4 +10,4 @@
 **Login Details**
 
 Email   : admin@mail.com
-Password: codeastro.com
+Password: @NickDevops134
